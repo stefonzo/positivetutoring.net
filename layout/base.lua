@@ -9,26 +9,23 @@ local template = [[
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
-	<header>
-		<img id="header-logo" src="/positive-tutoring-logo-header.svg" alt ="Positive Tutoring Logo" class="logo">
-	</header>
 	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="about.html">About Me</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
+		<a href="index.html">
+			<img id="header-logo" src="/positive-tutoring-logo-header.svg" alt ="Positive Tutoring Logo" class="logo">
+		</a>
+		<a class="nav-textlink" href="services.html">Services</a>
+		<a class="nav-textlink" href="about.html">About Me</a>
+		<a class="nav-textlink" href="contact.html">Contact</a>
 	</nav>
-	<main>
-		%s
-	</main>
+	%s
 </body>
 </html>
 ]]

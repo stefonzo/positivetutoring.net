@@ -5,5 +5,5 @@ local html = [[
 return {
 	title="About",
 	html=html,
-	layout="base",
+	layout="page",
 }

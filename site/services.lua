@@ -1,6 +1,10 @@
 local html = [[
 		<h1>Positive Tutoring Services</h1>
 		<p>I offer tutoring for K-12 and most lower division college courses. In person tutoring sessions can be held at a public location (Somewhere close to where you live, or we can meet in the middle if you live farther away. Zoom sessions are also available, upon scheduling a tutoring session a private zoom link will be sent to you.</p>
+<p>Tutoring sessions can be scheduled on an hourly basis. All in person tutoring sessions will be held in a public location (ideally a public library) that can be determined as needed. For convenience I also provide tutoring sessions via Zoom. </p>
+
+<p>Before our first session you can specify which K-12 subjects your child needs help with or what college courses you would like assistance with. That way when we begin after we break the ice we can start focusing on the material you or your child needs to learn. I can also help you come up with game plans for studying and mastering subject material.</p>
+
 		<div class="services-list-wrapper">
 			<div class="services-list-item">
 				<h2>K-12</h2>
@@ -29,5 +33,5 @@ local html = [[
 return {
 	title="Service",
 	html=html,
-	layout="base",
+	layout="page",
 }

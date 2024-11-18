@@ -14,5 +14,5 @@ local html = [[
 return {
 	title="Contact",
 	html=html,
-	layout="base",
+	layout="page",
 }

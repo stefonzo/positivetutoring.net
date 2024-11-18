@@ -7,8 +7,8 @@ local html = [[
 
 		<div class="services-list-wrapper">
 			<div class="services-list-item">
-				<h2>K-12</h2>
-				<h2>($25/hour)</h2>
+				<h2>K-12
+				<br>($25/hour)</h2>
 				<ul>
 					<li><b>English: </b>Alphabet, How to read/write (with phonetics)</li>
 					<li><b>Math: </b>Basics of numbers, Addition, Subtraction, Multiplication, Division, Algebra, Trigonometry</li>
@@ -17,8 +17,8 @@ local html = [[
 				</ul>
 			</div>
 			<div class="services-list-item">
-				<h2>College Classes</h2>
-				<h2>($30/hour)</h2>
+				<h2>College Classes
+				<br>($30/hour)</h2>
 				<ul>
 					<li><b>English: </b> Freshman composition, Freshman literature</li>
 					<li><b>Math: </b> Pre-calc, College Algebra, Intro to Statistics, Calculus I, II, III (multivariable/vector)</li>
